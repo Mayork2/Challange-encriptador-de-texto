@@ -60,7 +60,7 @@ Tenemos un periodo de tiempo de cuatro semanas para desarrollar el proyecto y va
 ---
 
 ## 🎉 Proyecto Terminado:
-Pueden visitar el sitio haciendo click en el siguiente [link](http://127.0.0.1:5500/index.html).
+Pueden visitar el sitio haciendo click en el [siguiente link](https://mayork2.github.io/Challange-encriptador-de-texto/).
 
 <a href="https://ibb.co/dcZZtHB"><img src="https://i.ibb.co/z5ddFts/Encriptador-de-texto-alura-ONE.jpg" alt="Encriptador-de-texto-alura-ONE" border="0"></a>
 
