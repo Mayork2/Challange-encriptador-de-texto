@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./img/logo-Alura.svg">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <a href="#" rel="">
+            <img src="./img/logo-Alura.svg" alt="Logo Alura" class="logo">
+        </a>
+    </header>
+
+    <!-- Principal-->
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="encriptador-aviso">
+                <img src="./img/exclamacion.png" alt="imagen de alerta" class="img-aviso">
+                <p class="texto-aviso">Solo letras minusculas y sin acentos.</p>
+            </div>
+            <div class="encriptador-contenedor">
+                <button type="submit" class="btn-encriptar">Encriptar!</button>
+                <button type="submit" class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="tarjeta">
+            <div class="tarjeta-contenedor">
+                <img src="./img/muñeco.png" alt="imagen de muñeco" class="img-muñeco">
+                <p class="texto-uno">Ningun mensaje fue encontrado</p>
+                <p class="texto-dos">Ingresa el texto que deseas encriptar o desencriptar</p>
+            </div>
+            <textarea type="mensaje" class="evaluar" readonly></textarea>
+            <button type="submit" class="btn-copiar">Copiar</button>
+        </section>
+    </main>
+
+    <!-- Pie de pagina --> 
+    <footer>
+        <p class="copyright">&Encriptador de texto 2024 - desarrollado por Luis Mayorca</p>
+        <a href="#" rel="">
+            <img src="./img/linkedin.svg" alt="logo linkedin" class="linked">
+        </a>
+        <a href="#" rel="">
+            <img src="./img/github.svg" alt="logo Github" class="git">
+        </a>
+    </footer>
+
+    <script src="./js/index.js"></script>
+    
+</body>
+</html>
