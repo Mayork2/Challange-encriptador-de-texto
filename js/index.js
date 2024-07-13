@@ -11,7 +11,7 @@ const btnDesencriptar = document.querySelector(".btn-desencriptar");
 btnEncriptar.addEventListener("click", e=>{
     e.preventDefault();
     let texto = txtEncriptar.value;
-    let txt = texto.normalize("NFD").replace(/[$\.¿\?~!\¡@#%^&*()_|}\{[\]>\<:"`;,\u0300-\u036f']/g, "");
+    let txt = texto.normalize("NFD").replace(/[$\.¿\?~!\¡@#%^&*()_|}\{[\]>\<:"`;,\-'\u0300-\u036f']/g, "");
     
     if(texto == ""){
         aviso.style.background = "#0A3871";
@@ -63,7 +63,7 @@ btnEncriptar.addEventListener("click", e=>{
 btnDesencriptar.addEventListener("click", e=>{
     e.preventDefault();
     let texto = txtEncriptar.value;
-    let txt = texto.normalize("NFD").replace(/[$\.¿\?~!\¡@#%^&*()_|}\{[\]>\<:"`;,\u0300-\u036f']/g, "");
+    let txt = texto.normalize("NFD").replace(/[$\.¿\?~!\¡@#%^&*()_|}\{[\]>\<:"`;,\-'\u0300-\u036f']/g, "");
     
     if(texto == ""){
         aviso.style.background = "#0A3871";
