@@ -65,3 +65,6 @@ Pueden visitar el sitio haciendo click en el [siguiente link](https://mayork2.gi
 <a href="https://ibb.co/dcZZtHB"><img src="https://i.ibb.co/z5ddFts/Encriptador-de-texto-alura-ONE.jpg" alt="Encriptador-de-texto-alura-ONE" border="0"></a>
 
 ---
+
+## 🥇 Insignia por finalizar el proyecto:
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/rm2PFKT/Prancheta-3.png" alt="Prancheta-3" border="0"></a>
